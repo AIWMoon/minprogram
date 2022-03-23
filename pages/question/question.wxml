@@ -1,2 +1,11 @@
 <!--pages/question/question.wxml-->
-<text>pages/question/question.wxml</text>
+<view class="qa">
+    <view class="q">1、包了口香糖的纸巾属于哪一类垃圾？（ ）</view>
+    <radio-group class="lable">
+        <label class="a" wx:for="{{oneItems}}" wx:for-item="item" wx:key="{{item.id}}">
+            <view>
+                 <radio value="{{item.value}}"/>{{item.name}}
+            </view>
+        </label>
+    </radio-group>
+</view>

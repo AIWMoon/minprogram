@@ -17,6 +17,7 @@
   </view>
 </view>
 
+<view class='footer'>本系统仅供参考，具体分类要求以属地专业管理部门为准。</view>
 <!-- <view class="kefu-box">
   <view class="kefu-body" bindtap="onAikefu">
     <image class="img" src="/images/ai-chat.png"></image>

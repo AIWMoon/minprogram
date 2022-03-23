@@ -1,1 +1,16 @@
 /* pages/question/question.wxss */
+.qa{
+    display: flex;
+    flex-direction: row;
+}
+.q{
+    position: fixed;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.lable{
+   margin: 35px;
+}
+.a{
+    margin: 5px;
+}
